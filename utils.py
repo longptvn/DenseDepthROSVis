@@ -82,7 +82,7 @@ def save_images(filename, outputs, inputs=None, gt=None, is_colormap=True, is_re
     im.save(filename)
 
 def load_test_data(test_data_zip_file='nyu_test.zip'):
-    print('Loading test data...', end='')
+    print('Loading test data...')
     import numpy as np
     from data import extract_zip
     data = extract_zip(test_data_zip_file)
@@ -139,3 +139,4 @@ def evaluate(model, rgb, depth, crop, batch_size=6, verbose=True):
         print("{:10.4f}, {:10.4f}, {:10.4f}, {:10.4f}, {:10.4f}, {:10.4f}".format(e[0],e[1],e[2],e[3],e[4],e[5]))
 
     return e
+

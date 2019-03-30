@@ -1,7 +1,16 @@
-## [High Quality Monocular Depth Estimation via Transfer Learning (arXiv 2018)](https://arxiv.org/abs/1812.11941)
-**[Ibraheem Alhashim](https://ialhashim.github.io/)** and **Peter Wonka**
+## DenseDepthROSVis
 
-Offical Keras (TensorFlow) implementaiton. If you have any questions or need more help with the code, feel free to contact the first author.
+This is a fork of DenseDepth (https://github.com/ialhashim/DenseDepth) made by Ibraheem Alhashim and Peter Wonka.
+
+The purpose of this fork is to visualize 3D point cloud of the images captured by camera.
+
+Following (except added ROS path description) is from the original README of DenseDepth.
+
+## ROS
+
+* Run `cd ros`
+Then 
+* Run `python DenseDepth.py`
 
 ## Results
 
