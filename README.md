@@ -1,6 +1,6 @@
 ## DenseDepthROSVis
 
-This is a fork of DenseDepth (https://github.com/ialhashim/DenseDepth) made by Ibraheem Alhashim and Peter Wonka.
+This is a fork of [DenseDepth](https://github.com/ialhashim/DenseDepth) made by Ibraheem Alhashim and Peter Wonka.
 
 The purpose of this fork is to visualize 3D point cloud of the images captured by camera.
 
